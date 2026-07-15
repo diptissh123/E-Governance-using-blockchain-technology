@@ -1,0 +1,65 @@
+.verify-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f4f6f9;
+}
+
+.verify-card {
+  width: 700px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+
+.verify-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0d6efd;
+}
+
+.verify-card form {
+  display: flex;
+  gap: 10px;
+}
+
+.verify-card input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.verify-card button {
+  padding: 10px 20px;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.certificate-details {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.certificate-details p {
+  margin: 10px 0;
+}
+
+.verified {
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+}

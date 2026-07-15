@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.applications-container {
+  padding: 30px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.applications-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.applications-card h2 {
+  text-align: center;
+  color: #0f766e;
+  margin-bottom: 25px;
+}
+
+.applications-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.applications-table th {
+  background: #0f766e;
+  color: white;
+  padding: 14px;
+  text-align: center;
+}
+
+.applications-table td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.applications-table tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+.applications-table tr:hover {
+  background: #eefaf8;
+}
+
+/* Status */
+
+.status {
+  padding: 6px 14px;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.status.pending {
+  background: orange;
+}
+
+.status.approved {
+  background: #16a34a;
+}
+
+.status.rejected {
+  background: #dc2626;
+}
+
+/* Buttons */
+
+.approve-btn,
+.reject-btn {
+  border: none;
+  padding: 8px 14px;
+  margin: 3px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.approve-btn {
+  background: #16a34a;
+}
+
+.approve-btn:hover {
+  background: #15803d;
+}
+
+.reject-btn {
+  background: #dc2626;
+}
+
+.reject-btn:hover {
+  background: #b91c1c;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .applications-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .applications-card {
+    padding: 15px;
+  }
+
+  .applications-card h2 {
+    font-size: 22px;
+  }
+}

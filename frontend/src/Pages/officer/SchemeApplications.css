@@ -1,0 +1,117 @@
+.officer-applications{
+
+    width:95%;
+    margin:30px auto;
+
+}
+
+.officer-applications h2{
+
+    text-align:center;
+    color:#0f766e;
+    margin-bottom:20px;
+
+}
+
+.search-box{
+
+    width:350px;
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    margin-bottom:20px;
+
+}
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+
+}
+
+th{
+
+    background:#0f766e;
+    color:white;
+    padding:15px;
+
+}
+
+td{
+
+    text-align:center;
+    padding:15px;
+    border-bottom:1px solid #ddd;
+
+}
+
+tr:hover{
+
+    background:#f4f4f4;
+
+}
+
+.status{
+
+    color:white;
+    padding:6px 15px;
+    border-radius:20px;
+    font-weight:bold;
+
+}
+
+.status.pending{
+
+    background:orange;
+
+}
+
+.status.approved{
+
+    background:green;
+
+}
+
+.status.rejected{
+
+    background:red;
+
+}
+
+.approve-btn{
+
+    background:green;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    margin-right:8px;
+    border-radius:6px;
+    cursor:pointer;
+
+}
+
+.reject-btn{
+
+    background:red;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:6px;
+    cursor:pointer;
+
+}
+
+.approve-btn:hover{
+
+    background:#006400;
+
+}
+
+.reject-btn:hover{
+
+    background:#b30000;
+
+}

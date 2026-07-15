@@ -1,0 +1,70 @@
+.applications-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  min-height: 100vh;
+  background-color: #f4f7fc;
+}
+
+.applications-card {
+  width: 90%;
+  max-width: 1000px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.applications-card h2 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 25px;
+}
+
+.applications-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.applications-table th {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.applications-table td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.applications-table tr:hover {
+  background-color: #f1f5f9;
+}
+
+.no-data {
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+}
+
+/* Status Badges */
+.status {
+  padding: 6px 14px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.status.pending {
+  background-color: orange;
+}
+
+.status.approved {
+  background-color: green;
+}
+
+.status.rejected {
+  background-color: red;
+}

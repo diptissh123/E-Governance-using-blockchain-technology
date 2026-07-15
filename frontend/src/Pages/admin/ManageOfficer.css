@@ -1,0 +1,114 @@
+.manage-officer-container {
+  padding: 30px;
+  background: #f4f7fc;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.header h2 {
+  color: #1e3a8a;
+  font-size: 28px;
+  margin: 0;
+}
+/* Add Button */
+.add-btn {
+  position: absolute;
+  right: 0;
+  width: 120px;
+  height: 40px;
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background: #2563eb;
+}
+
+.add-btn:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* Table Container */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header */
+th {
+  background: #1e3a8a;
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+}
+
+/* Table Body */
+td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tbody tr:hover {
+  background: #f8fafc;
+}
+
+/* Action Buttons */
+.view-btn,
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  margin: 2px;
+  font-size: 13px;
+  font-weight: 500;
+  width: 65px;
+  height: 32px;
+  transition: 0.3s;
+}
+
+.view-btn {
+  background-color: #198754;
+}
+
+.view-btn:hover {
+  background-color: #157347;
+}
+
+.edit-btn {
+  background-color: #f59e0b;
+}
+
+.edit-btn:hover {
+  background-color: #d97706;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #b02a37;
+}
